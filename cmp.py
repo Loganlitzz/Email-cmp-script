@@ -33,8 +33,6 @@ writer=csv.writer(f2)
 writer.writerow(['ContactId','Email','Brands'])
 index=0
 
-#compare
-for i in range(len(email_list1)):
     index=0
     for j in email_list2:
         if(email_list1[i]==j):
